@@ -1,5 +1,5 @@
 class Fixnum
 	def output
-		return 'Fizz' 
+		return 'Fizz' if(self % 3 == 0)
 	end
 end
